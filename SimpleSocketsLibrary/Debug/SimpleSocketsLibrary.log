@@ -1,0 +1,26 @@
+﻿Build started 4/16/2011 3:17:41 PM.
+     1>Project "C:\Users\andrew\Documents\Programming\C++\SimpleSocket_final\SimpleSocketsLibrary\SimpleSocketsLibrary.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SimpleSocketsLibrary.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SimpleSocketsLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SocketCommunicatior.cpp
+         SocketCommunicatior.cpp
+     1>c:\users\andrew\documents\programming\c++\simplesocket_final\simplesocketslibrary\socketcommunicatior.cpp(33): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : see declaration of 'itoa'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\andrew\Documents\Programming\C++\SimpleSocket_final\Debug\SimpleSocketsLibrary.lib" /NOLOGO Debug\SimpleClientSocket.obj
+         Debug\SimpleServerSocket.obj
+         Debug\SimpleSocket.obj
+         Debug\SimpleSocketLib.obj
+         Debug\SocketCommunicatior.obj
+         Debug\stdafx.obj
+         SimpleSocketsLibrary.vcxproj -> C:\Users\andrew\Documents\Programming\C++\SimpleSocket_final\Debug\SimpleSocketsLibrary.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\SimpleSocketsLibrary.unsuccessfulbuild".
+         Touching "Debug\SimpleSocketsLibrary.lastbuildstate".
+     1>Done Building Project "C:\Users\andrew\Documents\Programming\C++\SimpleSocket_final\SimpleSocketsLibrary\SimpleSocketsLibrary.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.41
